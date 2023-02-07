@@ -1,0 +1,50 @@
+[
+	{
+		"name": "The Undead",
+		"leaderName": "The Mindless Horde",
+		"adjective": ["Undead"],
+		"preferredVictoryType": "Domination",
+		"style": "Undead",
+		
+		"startIntroPart1": "'When there's no more room in Hell, the dead will walk the earth.' - George A. Romero",
+		"startIntroPart2": "'Darkness falls across the land, the midnight hour is close at hand, creatures crawl in search of blood to terrorize y'all's neighborhood' - Vincent Price",
+		
+		"declaringWar": "BRAINS!",
+		"attacked": "Grrr!",
+		"defeated": "Urk!",
+		"introduction": "Brains...",
+		
+		"neutralHello": "Brains?",
+		"neutralLetsHearIt": "Talk?",
+		"neutralNo": "Bad...",
+		"neutralYes": "Good...",
+
+		"hateHello": "Grrr...",
+		"hateLetsHearIt": "Talk...",
+		"hateNo": "Hate!",
+		"hateYes": "Okay...",
+		
+		"afterPeace": "Mmmm....good brains.",
+		"tradeRequest": "T-...tr-...trade?",
+
+		"outerColor": [190,190,190],
+		"innerColor": [0,0,0],
+		"uniqueName": "The Great Infectious Horde",
+		"uniques": ["[-100]% Unhappiness from [Population] [in all cities]",
+			"[-33]% [Culture] [in all cities]",
+			"[-33]% [Science] [in all cities]",
+			"[-33]% growth [in all cities]",
+			"+30% Strength when fighting City-State units and cities",
+			"[+100]% City-State Influence degradation","Resting point for Influence with City-States is increased by [-60]",
+			"[-33]% Golden Age length",
+			"[-67]% maintenance costs <for [All] units>",
+			"[All] units gain the [Undead] promotion",
+			"[non-air] units gain the [Breach the Walls] promotion",
+			"[Melee] units gain the [Eat the Living] promotion",
+			"Gain a free [Infection] [in all cities]",
+			"[+10]% Strength <within [1] tiles of a [Graveyard]>"],
+		"cities": ["Ground Zero", "Site B", "Site C", "Site D", "Site E", "Site F", "Site G", "Site H",
+			"Site I", "Site J", "Site K", "Site L", "Site M", "Site N", "Site O", "Site P", "Site Q", "Site R",
+			"Site S", "Site T", "Site U", "Site V", "Site W", "Site X", "Site Y", "Site Z"]
+	}
+]
