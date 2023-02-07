@@ -1,0 +1,25 @@
+[
+    {
+		"name": "Graveyard",
+		"uniqueTo": "The Undead",
+		"food": -2,
+		"gold": -2,
+		"happiness": -2,
+		"turnsToBuild": 6,
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Hill","Tundra","Snow","Forest","Jungle","Fallout"],
+		"uniques": ["Gives a defensive bonus of [-10]%",
+			"[+1 Food] <after discovering [Civil Service]>",
+			"[+1 Production] <after discovering [Biology]>",
+			"Can be built outside your borders"],
+		"techRequired": "Agriculture",
+		"shortcutKey": "G"
+	},
+	{
+		"name": "Abyss",
+		"uniqueTo":"The Undead",
+		"culture": 1,
+		"terrainsCanBeBuiltOn": [Land],
+		"uniques": ["Gives a defensive bonus of [50]%",
+			"Great Improvement"]
+	}
+]
