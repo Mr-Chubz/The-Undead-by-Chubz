@@ -1,0 +1,97 @@
+[
+	{
+		"name": "Mass Grave",
+		"uniqueTo": "The Undead",
+		"replaces": "Circus Maximus",
+        "cost": 125,
+        "happiness": 5,
+        "culture": 1,
+        "isNationalWonder": true,
+		"uniques": ["Requires a [Colosseum] in all cities",
+			"Cost increases by [30] per owned city",
+			"All newly-trained [non-air] units [in this city] receive the [Rejuvenation] promotion"],
+        "requiredTech": "Horseback Riding"
+    },
+	{
+		"name": "National Tombstone",
+		"uniqueTo": "The Undead",
+		"replaces": "National Epic",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Monument] in all cities",
+			"[-25]% Gold cost of acquiring tiles [in all cities]",
+			"All newly-trained [non-air] units [in this city] receive the [Hard to Kill Twice] promotion",
+			"Cost increases by [30] per owned city"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Germ Warfare",
+		"uniqueTo": "The Undead",
+		"replaces": "Heroic Epic",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Barracks] in all cities",
+			"All newly-trained [non-air] units [in this city] receive the [Sickening Plague] promotion",
+			"Cost increases by [30] per owned city"],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Infection",
+		"uniqueTo": "The Undead",
+		"replaces": "Courthouse",
+		"happiness": 3,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"[-10]% Production when constructing [All] wonders [in this city]",
+			"[+15]% Production when constructing [Military] units [in this city]",
+			"[+3 Food, +2 Production, +2 Gold, +2 Happiness] from [Graveyard] tiles [in this city]",
+			"[+3 Culture, +1 Production, +1 Gold, +1 Food] from [Abyss] tiles [in this city]"],
+		"cost": -1
+	},
+	{
+		"name": "Memento Mori",
+		"uniqueTo":"The Undead",
+		"replaces": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"uniques": ["[-50]% Culture cost of natural border growth [in this city]",
+			"Destroyed when the city is captured"],
+		"hurryCostModifier": 40,
+		"maintenance": 1
+	},
+	{
+		"name": "Tasty Brains",
+		"uniqueTo":"The Undead",
+		"replaces": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [3] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Lich King's Tomb",
+		"uniqueTo": "The Undead",
+		"replaces": "Bank",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"uniques": ["Doubles Gold given to enemy if city is captured",
+			"All newly-trained [Military] units [in this city] receive the [Summon the Lich King] promotion"],
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
+	},
+	{
+		"name": "Morgue",
+		"uniqueTo": "The Undead",
+		"replaces": "Hospital",
+		"food": 3,
+		"happiness": 1,
+		"culture": 2,
+		"requiredBuilding": "Aqueduct",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology"
+	}
+]
