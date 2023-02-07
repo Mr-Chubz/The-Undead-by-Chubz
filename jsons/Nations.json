@@ -43,7 +43,7 @@
 			"[Melee] units gain the [Eat the Living] promotion",
 			"Gain a free [Infection] [in all cities]",
 			"[+10]% Strength <within [1] tiles of a [Graveyard]>"],
-		"cities": ["Ground Zero", "Site B", "Site C", "Site D", "Site E", "Site F", "Site G", "Site H",
+		"cities": ["Ul' Deiruk", "Site B", "Site C", "Site D", "Site E", "Site F", "Site G", "Site H",
 			"Site I", "Site J", "Site K", "Site L", "Site M", "Site N", "Site O", "Site P", "Site Q", "Site R",
 			"Site S", "Site T", "Site U", "Site V", "Site W", "Site X", "Site Y", "Site Z"]
 	}
